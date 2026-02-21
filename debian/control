@@ -7,6 +7,7 @@ Build-Depends: debhelper-compat (= 13),
                dpkg-build-api (= 1),
                golang-any,
                golang-github-redis-go-redis-v9-dev,
+               golang-github-alicebob-miniredis-dev,
 Testsuite: autopkgtest-pkg-go
 Standards-Version: 4.7.0
 Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-bsm-redislock
@@ -17,8 +18,7 @@ XS-Go-Import-Path: github.com/bsm/redislock
 Package: golang-github-bsm-redislock-dev
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends},
-         golang-github-redis-go-redis-v9-dev,
+Depends: ${misc:Depends}
 Description: Simplified distributed locking implementation using Redis (library)
  redislock
  .

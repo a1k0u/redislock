@@ -3,6 +3,5 @@
 %:
 	dh $@ --builddirectory=debian/_build --buildsystem=golang
 
-# Most of tests require redis to be running
-# TODO: also use miniredis for tests
 override_dh_auto_test:
+	dh_auto_test -- -short -skip ^Example
