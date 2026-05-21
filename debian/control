@@ -22,4 +22,5 @@ Depends: ${misc:Depends}
 Description: Simplified distributed locking implementation using Redis (library)
  redislock
  .
- Simplified distributed locking implementation using Redis (http://godoc.org/github.com/bsm/redislock)
+ Simplified distributed locking implementation using Redis
+ (http://godoc.org/github.com/bsm/redislock)
