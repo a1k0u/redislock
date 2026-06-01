@@ -6,7 +6,7 @@ Build-Depends: debhelper-compat (= 13),
                dh-sequence-golang,
                dpkg-build-api (= 1),
                golang-any,
-               golang-github-redis-go-redis-v9-dev,
+               golang-github-redis-go-redis-dev,
                golang-github-alicebob-miniredis-dev,
 Testsuite: autopkgtest-pkg-go
 Standards-Version: 4.7.0
